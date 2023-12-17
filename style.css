@@ -1,0 +1,28 @@
+@font-face  {
+  font-family: Naruto;
+
+  src: url("njnaruto.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  width: 500px;
+  display: flex;
+  align-items: center;
+
+}
+
+.title {
+  display: inline-block;
+  font-family: Naruto, sans-serif;
+  margin: 10px;
+}
+
+.logo {
+  display: inline-block;
+  margin: 0 auto;
+}

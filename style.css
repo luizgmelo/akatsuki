@@ -16,6 +16,24 @@
 
 }
 
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  overflow: hidden;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  width: 200px;
+  height: 200px;
+  border: 10px solid black;
+}
+
 .title {
   display: inline-block;
   font-family: Naruto, sans-serif;

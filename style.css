@@ -17,15 +17,18 @@
 }
 
 .container {
+  width: 1200px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   overflow: hidden;
+  margin: 0 auto;
 }
 
 .card {
   display: flex;
   flex-direction: column;
+  margin: 10px 0px;
 }
 
 .image {

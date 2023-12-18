@@ -40,6 +40,14 @@
   margin: 10px;
 }
 
+.name {
+  display: inline-block;
+  font-size: 0.8em;
+  text-align: center;
+  font-family: Naruto, sans-serif;
+  margin: 10px;
+}
+
 .logo {
   display: inline-block;
   margin: 0 auto;

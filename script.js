@@ -14,7 +14,7 @@ request.onload = function () {
     card.setAttribute('class', 'card')
     
     let h2 = document.createElement('h2')
-    h2.setAttribute('class', 'title')
+    h2.setAttribute('class', 'name')
     h2.textContent = character['name']
 
     let img = document.createElement('img')

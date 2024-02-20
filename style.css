@@ -1,57 +1,41 @@
 @font-face  {
   font-family: Naruto;
-
   src: url("njnaruto.ttf");
 }
 
 * {
   margin: 0;
   padding: 0;
+  font-family: Naruto, sans-serif;
 }
 
 .header {
   width: 500px;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 400px);
   align-items: center;
-
-}
-
-.container {
-  width: 1200px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  overflow: hidden;
-  margin: 0 auto;
-}
-
-.card {
-  display: flex;
-  flex-direction: column;
-  margin: 10px 0px;
-}
-
-.image {
-  width: 200px;
-  height: 200px;
-  border: 10px solid black;
-}
-
-.title {
-  display: inline-block;
-  font-family: Naruto, sans-serif;
-  margin: 10px;
-}
-
-.name {
-  display: inline-block;
-  font-size: 0.8em;
-  text-align: center;
-  font-family: Naruto, sans-serif;
-  margin: 10px;
 }
 
 .logo {
   display: inline-block;
   margin: 0 auto;
 }
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, 200px);
+  justify-content: center;
+  text-align: center;
+  gap: 50px;
+}
+
+.container .image {
+  width: 200px;
+  height: 200px;
+  border: 5px solid black;
+}
+
+.container .name {
+  font-size: 0.8em;
+  margin: 10px;
+}
+

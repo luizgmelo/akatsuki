@@ -15,7 +15,7 @@ request.onload = function () {
     
     let h2 = document.createElement('h2')
     h2.setAttribute('class', 'name')
-    h2.textContent = character['name'].split(" ")[0];
+    h2.textContent = character['name'];
 
     let img = document.createElement('img')
     img.setAttribute('class', 'image')
